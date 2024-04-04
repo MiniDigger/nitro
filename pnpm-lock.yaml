@@ -9,7 +9,7 @@ importers:
     specifiers:
       '@cloudflare/kv-asset-handler': ^0.3.0
       '@netlify/functions': ^1.4.0
-      '@rollup/plugin-alias': ^4.0.3
+      '@rollup/plugin-alias': ^5.1.0
       '@rollup/plugin-commonjs': ^24.0.1
       '@rollup/plugin-inject': ^5.0.3
       '@rollup/plugin-json': ^6.0.0
@@ -88,7 +88,7 @@ importers:
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.0
       '@netlify/functions': 1.4.0
-      '@rollup/plugin-alias': 4.0.3_rollup@3.10.1
+      '@rollup/plugin-alias': 5.1.0_rollup@3.10.1
       '@rollup/plugin-commonjs': 24.0.1_rollup@3.10.1
       '@rollup/plugin-inject': 5.0.3_rollup@3.10.1
       '@rollup/plugin-json': 6.0.0_rollup@3.10.1
@@ -1161,6 +1161,20 @@ packages:
     dependencies:
       rollup: 3.10.1
       slash: 4.0.0
+    dev: true
+
+  /@rollup/plugin-alias/5.1.0_rollup@3.10.1:
+    resolution: {integrity: sha512-lpA3RZ9PdIG7qqhEfv79tBffNaoDuukFDrmhLqg9ifv99u/ehn+lOg30x2zmhf8AQqQUZaMk/B9fZraQ6/acDQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      rollup: 3.10.1
+      slash: 4.0.0
+    dev: false
 
   /@rollup/plugin-commonjs/24.0.1_rollup@3.10.1:
     resolution: {integrity: sha512-15LsiWRZk4eOGqvrJyu3z3DaBu5BhXIMeWnijSRvd8irrrg9SHpQ1pH+BUK4H6Z9wL9yOxZJMTLU+Au86XHxow==}
